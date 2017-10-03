@@ -74,13 +74,38 @@ function scene2() {
   // Stage direction 1
 
   frame(function() {
-
+    sword.style.top = '70%'
+    sword.style.left = '37'
   })
 
   // Stage direction 2
 
   frame(function() {
+    sword.style.top = '65%'
+    sword.style.left = '40%'
+  })
 
+  frame(function() {
+    sword.style.top = '63%'
+    sword.style.left = '45%'
+  })
+
+  frame(function() {
+    sword.style.left = '52%'
+  })
+
+  frame(function() {
+    joffrey.style.left = '50%'
+    joffrey.style.transform = 'rotateY(150deg)'
+  })
+
+  frame(function() {
+    joffrey.style.left = '100%'
+    joffrey.style.top = '50%'
+  })
+
+  frame(function() {
+    joffrey.style.top = '100%'
   })
 
 }
